@@ -1,6 +1,16 @@
 const webProjects = [
   {
     id: 1,
+    title: "AI-Powered Customer Support System",
+    description:
+      "Built a real-time customer support platform using the MERN stack with AI-assisted ticket categorization, chat summarization, and a RAG-based knowledge assistant to enhance support efficiency and user experience.",
+    image: "./CustomerSupport.png",
+    tags: ["React.js", "Node.js", "MongoDB", "Socket.IO", "OpenAI API", "JWT"],
+    website: "https://mern-customer-support-app.onrender.com/login",
+    source: "https://github.com/VISHALmehra7/MERN-Customer-Support-App",
+  },
+  {
+    id: 2,
     title: "MERN Chat Application",
     description:
       "Built a real-time chat application using the MERN stack with live messaging, user authentication, and state management for a responsive and interactive user experience.",
@@ -10,7 +20,7 @@ const webProjects = [
     source: "https://github.com/VISHALmehra7/mern-chat-app",
   },
   {
-    id: 2,
+    id: 3,
     title: "MERN Blog Website",
     description:
       "Developed a full-stack blogging platform with secure authentication, state-managed UI, and CRUD operations for creating, reading, and interacting with blog posts.",
@@ -19,7 +29,7 @@ const webProjects = [
     source: "https://github.com/VISHALmehra7/Mern-Blog-Website",
   },
   {
-    id: 3,
+    id: 4,
     title: "MERN Advance Authentication",
     description:
       "Developed a secure authentication system with JWT, email verification, and responsive UI, ensuring safe and seamless user access in MERN applications.",
@@ -28,7 +38,7 @@ const webProjects = [
     source: "https://github.com/VISHALmehra7/mern-authentication",
   },
   {
-    id: 4,
+    id: 5,
     title: "React Admin Dashboard",
     description:
       "Developed a responsive admin dashboard with interactive charts, reusable UI components, and data visualization for effective management and analytics.",
@@ -38,7 +48,7 @@ const webProjects = [
     source: "https://github.com/VISHALmehra7/React-Responsive-Admin-Dashboard",
   },
   {
-    id: 5,
+    id: 6,
     title: "Portfolio Web App",
     description:
       "Developed a full-stack portfolio web app with project management, GitHub/live demo links, user exploration, and responsive UI using React.js and Spring Boot.",
@@ -47,7 +57,7 @@ const webProjects = [
     source: "https://github.com/VISHALmehra7/Portfolio-Website",
   },
   {
-    id: 6,
+    id: 7,
     title: "Pig Dice Game",
     description:
       "Developed a two-player turn-based dice game with score management, risk-reward mechanics, and interactive UI using JavaScript, HTML, and CSS.",
